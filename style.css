@@ -2,10 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
 }
-.a{
-    text-decoration: none;
-    display: inline-block;
-}
+
 .container
 {
     max-width: 1170px;
@@ -52,6 +49,7 @@
     background-color:rgb(157,155,132);
     padding: 4px 10px 5px 10px ;
     font-size: 16px;
+    text-decoration: none;
     
 }
 .ph, 
@@ -61,6 +59,7 @@
     font-size: 14px;
     letter-spacing: 0.25px;
     line-height: 45px;
+    text-decoration: none;
 }
 .ph{
     padding-left: 20px;
@@ -98,7 +97,7 @@
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family:monospace;
     padding: 24px 0px;
 
 }
@@ -114,8 +113,10 @@
 }
 .link{
    font-size: 18px;
-   padding: 10px 15px;
-    
+   font-family:cursive;
+   color: rgb(143,107,145);
+   text-decoration: none;
+      
 }
 .foot{
     background-color: rgb(143,107,145);
@@ -131,13 +132,17 @@
     margin: 0 auto;
 }
 li{
-    list-style-type: none
+    list-style-type: none;
+    
+
 }
 .contact{
-    padding-left: 190px;   
+    padding-left: 190px;  
+   
 }
 
 .contact a{
+    text-decoration: none;
     font-size: 16px;
     list-style: 24px;
     color:rgb(255, 228, 249);
@@ -298,6 +303,7 @@ position: absolute;
     margin: 0px 0px 1em 0px;
     font-family:sans-serif;
 }
+
 .uni__titel{
 font-size: 40px;
     margin: 0px 0px 1em 0px;
@@ -308,4 +314,15 @@ font-size: 40px;
     margin: 0px 0px 1em 0px;
     font-family:sans-serif;
 
+}
+.pro__text{
+    color: rgb(157,155,132);
+}
+.v{
+    text-decoration: none;
+    color: rgb(157,155,132);
+}
+.p{
+    width: 650px;
+    height: 350px;
 }
